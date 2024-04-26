@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZxP_BillboardsTrans
+  m_Shader: {fileID: 4800000, guid: e159ae8cef6861d45ac63f3f6e95ef3d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortAnima:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion:
+        m_Texture: {fileID: 2800000, guid: 6c7f5b3252196854691b303de6f82ca4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortions:
+        m_Texture: {fileID: 2800000, guid: f3de636553447c24d8c9e34ad2349209, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LED:
+        m_Texture: {fileID: 2800000, guid: 18e1965a87226254b8eb7f01462acc78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LEDGlow:
+        m_Texture: {fileID: 2800000, guid: 5c0258fd36765544a85f7ef332d6ad96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 144d2d6e0f7e56746a0be8e49e47ef19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ChangeSpeed: 6.8
+    - _Column: 2
+    - _DistorColumn: 5
+    - _DistorRow: 2
+    - _DistortPower: 0.094
+    - _GlitchIntensity: 0.418
+    - _GradientTime: 0.01
+    - _LEDint: 0.469
+    - _Option: 1
+    - _Row: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Glitch1: {r: 0.5197807, g: 0.4306336, b: 0.9926471, a: 0}
+    - _Glitch2: {r: 0.5588235, g: 0.08093307, b: 0, a: 0}
